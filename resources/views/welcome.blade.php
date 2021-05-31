@@ -126,7 +126,16 @@
                         Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
                     </div>
                 </div>
+                <div class="flex justify-center mt-4 sm:items-center sm:justify-between">
+                    <div>
+                        {{auth()->user()->name}}
+                    </div>
+                    <div>
+                        <a href="{{route('logout')}}">Logout</a>
+                    </div>
+                </div>                
             </div>
+            
         </div>
     </body>
 </html>

@@ -21,7 +21,7 @@
                     <input name="email" type="text" class="form-control" id="exampleFormControlInput1" placeholder="email" required>
                 </div>
                 <div class="mb-3">
-                    <label for="exampleFormControlInput2" class="form-label">Senha:/label>
+                    <label for="exampleFormControlInput2" class="form-label">Senha:</label>
                     <input name="password" type="password" class="form-control" id="exampleFormControlInput2" placeholder="senha" required>
                 </div>
                 <div class="row">
@@ -35,6 +35,7 @@
                     </div>
                 </div>
                 <button type="submit" class="btn btn-custom btn-lg btn-block mt-3">Entrar</button>
+                <a href="{{route('login.facebook')}}" class="btn btn-primary btn-lg btn-block mt-3">Facebook</a>
             </form>
         </div>
     </div>
