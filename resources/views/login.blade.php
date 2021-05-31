@@ -34,8 +34,10 @@
                         </div>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-custom btn-lg btn-block mt-3">Entrar</button>
-                <a href="{{route('login.facebook')}}" class="btn btn-primary btn-lg btn-block mt-3">Facebook</a>
+                <div class="d-grid gap-2">
+                    <button type="submit" class="btn btn-custom btn-lg btn-block mt-3">Entrar</button>
+                    <a href="{{route('login.facebook')}}" class="btn btn-primary btn-lg btn-block mt-3">Facebook</a>
+                </div>
             </form>
         </div>
     </div>
